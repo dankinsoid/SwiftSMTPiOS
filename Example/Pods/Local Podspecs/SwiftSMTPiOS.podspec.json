@@ -1,0 +1,22 @@
+{
+  "name": "SwiftSMTPiOS",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftSMTPiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dankinsoid/SwiftSMTPiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dankinsoid": "voidilov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dankinsoid/SwiftSMTPiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftSMTPiOS/Classes/**/*"
+}

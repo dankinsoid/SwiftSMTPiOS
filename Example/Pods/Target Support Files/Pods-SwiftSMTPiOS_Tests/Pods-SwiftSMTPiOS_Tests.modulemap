@@ -1,0 +1,6 @@
+framework module Pods_SwiftSMTPiOS_Tests {
+  umbrella header "Pods-SwiftSMTPiOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

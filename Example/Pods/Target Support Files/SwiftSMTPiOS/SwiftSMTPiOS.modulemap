@@ -1,0 +1,6 @@
+framework module SwiftSMTPiOS {
+  umbrella header "SwiftSMTPiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

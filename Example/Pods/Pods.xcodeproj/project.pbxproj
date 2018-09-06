@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A7F93518EA8B64165B7B64EF43F94F /* SwiftSMTPiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E31286A74FD6AAFD8A9C39874E255BA /* SwiftSMTPiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D856542E119AABBEFC884A4B09ADA65 /* SwiftSMTPiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBDC5C14D42CE0CF8712C105DAA059 /* SwiftSMTPiOS-dummy.m */; };
+		616A5467F7D016A57285BDAC1491B625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8D4E371EF29DEE23C59594771D42FBA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E14361E24D0935E00ED52F9FF7EB /* ReplaceMe.swift */; };
+		D9F7FC676EB6E1DA78AAF35D9A5937E0 /* Pods-SwiftSMTPiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6350B29E8E9E6B86FD0A7FD475C32AE /* Pods-SwiftSMTPiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3059081F9FF9371ADB51A04F076743 /* Pods-SwiftSMTPiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 478E6F5095B9A0940DFBD3EF63DE5E05 /* Pods-SwiftSMTPiOS_Tests-dummy.m */; };
+		FB0C07AF697892F0B303D0265E5848E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E65423B6975DBDD9BF9DC57F4312ED55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE9C6CF30B7427E7F11DEC71AC9EDF4;
+			remoteInfo = SwiftSMTPiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFBDC5C14D42CE0CF8712C105DAA059 /* SwiftSMTPiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSMTPiOS-dummy.m"; sourceTree = "<group>"; };
+		14E5487CBFFE112A6CC60B2EF26B5E7F /* Pods_SwiftSMTPiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftSMTPiOS_Tests.framework; path = "Pods-SwiftSMTPiOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E31286A74FD6AAFD8A9C39874E255BA /* SwiftSMTPiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSMTPiOS-umbrella.h"; sourceTree = "<group>"; };
+		3EA36CA99BC5DD6489697E814599B9B7 /* Pods-SwiftSMTPiOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSMTPiOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		478E6F5095B9A0940DFBD3EF63DE5E05 /* Pods-SwiftSMTPiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSMTPiOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		4A9013F399C6CE650931EB0401B92239 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502DA8148A70004F90BB33BC2E0FE87F /* Pods-SwiftSMTPiOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSMTPiOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73995FEF599DBEB8D24D71115F4DAF40 /* SwiftSMTPiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftSMTPiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8291E14361E24D0935E00ED52F9FF7EB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftSMTPiOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		90FBE3EF4BB464F326507939D65DC79E /* Pods-SwiftSMTPiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSMTPiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5E3D753136AB345FDB0AD4D2A1E4A66 /* Pods-SwiftSMTPiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSMTPiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD240DB183066EDC0BDCB216CF18440 /* SwiftSMTPiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSMTPiOS-prefix.pch"; sourceTree = "<group>"; };
+		C0B9C51462476901C6C4CA45AF5AC4ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83C345CC256700B4F7BF378B9E455E0 /* Pods-SwiftSMTPiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftSMTPiOS_Tests.modulemap"; sourceTree = "<group>"; };
+		D4DB5B4B149448FE59EABD6263713DB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E2EB0A932D5D64E262C9659ECF1E320A /* SwiftSMTPiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSMTPiOS.framework; path = SwiftSMTPiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E633F60AC019F3FF8E1B10E26587118F /* Pods-SwiftSMTPiOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSMTPiOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E6350B29E8E9E6B86FD0A7FD475C32AE /* Pods-SwiftSMTPiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSMTPiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E71215C814AED4E617E1051428266559 /* Pods-SwiftSMTPiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSMTPiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ECE35A9DEE32280E047C40F3002DB36D /* SwiftSMTPiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSMTPiOS.modulemap; sourceTree = "<group>"; };
+		F4E2E187CA5586472153A2AEF76AA974 /* SwiftSMTPiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSMTPiOS.xcconfig; sourceTree = "<group>"; };
+		FE2EAF9C1D0AF59B5A688C26E8AE98A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8909F841471162E96DCD5B4E05111CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C07AF697892F0B303D0265E5848E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B79E96ACD3FAAD345B95B4CFA9BC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A5467F7D016A57285BDAC1491B625 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E66ED36E28F081CFE892A602E215F98 /* SwiftSMTPiOS */ = {
+			isa = PBXGroup;
+			children = (
+				8291E14361E24D0935E00ED52F9FF7EB /* ReplaceMe.swift */,
+				D09138D2E1C45570BE374EA219735340 /* Pod */,
+				46FED691E13858F2EC7E3FAAD1D69C0C /* Support Files */,
+			);
+			name = SwiftSMTPiOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46FED691E13858F2EC7E3FAAD1D69C0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A9013F399C6CE650931EB0401B92239 /* Info.plist */,
+				ECE35A9DEE32280E047C40F3002DB36D /* SwiftSMTPiOS.modulemap */,
+				F4E2E187CA5586472153A2AEF76AA974 /* SwiftSMTPiOS.xcconfig */,
+				0EFBDC5C14D42CE0CF8712C105DAA059 /* SwiftSMTPiOS-dummy.m */,
+				BAD240DB183066EDC0BDCB216CF18440 /* SwiftSMTPiOS-prefix.pch */,
+				2E31286A74FD6AAFD8A9C39874E255BA /* SwiftSMTPiOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftSMTPiOS";
+			sourceTree = "<group>";
+		};
+		5235A3C8594091C269CE6763B6E1E816 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E66ED36E28F081CFE892A602E215F98 /* SwiftSMTPiOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6188781740EE1318CD2FE397978B5052 /* Pods-SwiftSMTPiOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0B9C51462476901C6C4CA45AF5AC4ED /* Info.plist */,
+				C83C345CC256700B4F7BF378B9E455E0 /* Pods-SwiftSMTPiOS_Tests.modulemap */,
+				90FBE3EF4BB464F326507939D65DC79E /* Pods-SwiftSMTPiOS_Tests-acknowledgements.markdown */,
+				3EA36CA99BC5DD6489697E814599B9B7 /* Pods-SwiftSMTPiOS_Tests-acknowledgements.plist */,
+				478E6F5095B9A0940DFBD3EF63DE5E05 /* Pods-SwiftSMTPiOS_Tests-dummy.m */,
+				E633F60AC019F3FF8E1B10E26587118F /* Pods-SwiftSMTPiOS_Tests-frameworks.sh */,
+				502DA8148A70004F90BB33BC2E0FE87F /* Pods-SwiftSMTPiOS_Tests-resources.sh */,
+				E6350B29E8E9E6B86FD0A7FD475C32AE /* Pods-SwiftSMTPiOS_Tests-umbrella.h */,
+				B5E3D753136AB345FDB0AD4D2A1E4A66 /* Pods-SwiftSMTPiOS_Tests.debug.xcconfig */,
+				E71215C814AED4E617E1051428266559 /* Pods-SwiftSMTPiOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftSMTPiOS_Tests";
+			path = "Target Support Files/Pods-SwiftSMTPiOS_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5235A3C8594091C269CE6763B6E1E816 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				914C7DA0BBCC1B5D0B0492E0E1C992D0 /* Products */,
+				FF955727A3FCBA58583E3BFDE34BC965 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		914C7DA0BBCC1B5D0B0492E0E1C992D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E5487CBFFE112A6CC60B2EF26B5E7F /* Pods_SwiftSMTPiOS_Tests.framework */,
+				E2EB0A932D5D64E262C9659ECF1E320A /* SwiftSMTPiOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D09138D2E1C45570BE374EA219735340 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB5B4B149448FE59EABD6263713DB1 /* LICENSE */,
+				FE2EAF9C1D0AF59B5A688C26E8AE98A5 /* README.md */,
+				73995FEF599DBEB8D24D71115F4DAF40 /* SwiftSMTPiOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF955727A3FCBA58583E3BFDE34BC965 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6188781740EE1318CD2FE397978B5052 /* Pods-SwiftSMTPiOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DE9268980616D5DD00CCBA440FC25F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7F93518EA8B64165B7B64EF43F94F /* SwiftSMTPiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD46881C719D91FDAC557894EBAA3E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F7FC676EB6E1DA78AAF35D9A5937E0 /* Pods-SwiftSMTPiOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80E23907E1668E815DAB58DF66A8C501 /* Pods-SwiftSMTPiOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CE415440FE5916081A1BE5BC0AE160 /* Build configuration list for PBXNativeTarget "Pods-SwiftSMTPiOS_Tests" */;
+			buildPhases = (
+				8CC34F6BE089C600298CA3BFE40DBFD5 /* Sources */,
+				98B79E96ACD3FAAD345B95B4CFA9BC48 /* Frameworks */,
+				BBD46881C719D91FDAC557894EBAA3E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D2C8E8190724A694D2F6A3C516EE7D /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftSMTPiOS_Tests";
+			productName = "Pods-SwiftSMTPiOS_Tests";
+			productReference = 14E5487CBFFE112A6CC60B2EF26B5E7F /* Pods_SwiftSMTPiOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FE9C6CF30B7427E7F11DEC71AC9EDF4 /* SwiftSMTPiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150B02BABE31E73E609AB95691905758 /* Build configuration list for PBXNativeTarget "SwiftSMTPiOS" */;
+			buildPhases = (
+				DEC609F55D1AEC941CFA8BD9E326A5C4 /* Sources */,
+				8909F841471162E96DCD5B4E05111CD9 /* Frameworks */,
+				2DE9268980616D5DD00CCBA440FC25F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSMTPiOS;
+			productName = SwiftSMTPiOS;
+			productReference = E2EB0A932D5D64E262C9659ECF1E320A /* SwiftSMTPiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 914C7DA0BBCC1B5D0B0492E0E1C992D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E23907E1668E815DAB58DF66A8C501 /* Pods-SwiftSMTPiOS_Tests */,
+				8FE9C6CF30B7427E7F11DEC71AC9EDF4 /* SwiftSMTPiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC34F6BE089C600298CA3BFE40DBFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3059081F9FF9371ADB51A04F076743 /* Pods-SwiftSMTPiOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC609F55D1AEC941CFA8BD9E326A5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D4E371EF29DEE23C59594771D42FBA /* ReplaceMe.swift in Sources */,
+				5D856542E119AABBEFC884A4B09ADA65 /* SwiftSMTPiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D2C8E8190724A694D2F6A3C516EE7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSMTPiOS;
+			target = 8FE9C6CF30B7427E7F11DEC71AC9EDF4 /* SwiftSMTPiOS */;
+			targetProxy = E65423B6975DBDD9BF9DC57F4312ED55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B1A7A2294A5289ACA4B27A70256C0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E2E187CA5586472153A2AEF76AA974 /* SwiftSMTPiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSMTPiOS/SwiftSMTPiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSMTPiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSMTPiOS/SwiftSMTPiOS.modulemap";
+				PRODUCT_NAME = SwiftSMTPiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EEB70E334511C0A350ECCADD52FEC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E3D753136AB345FDB0AD4D2A1E4A66 /* Pods-SwiftSMTPiOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSMTPiOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSMTPiOS_Tests/Pods-SwiftSMTPiOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftSMTPiOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		621792EBAFDB79AD89A67E39DF14FCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E2E187CA5586472153A2AEF76AA974 /* SwiftSMTPiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSMTPiOS/SwiftSMTPiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSMTPiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSMTPiOS/SwiftSMTPiOS.modulemap";
+				PRODUCT_NAME = SwiftSMTPiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A9770BD1CC3CB8C4498B8924B104B851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71215C814AED4E617E1051428266559 /* Pods-SwiftSMTPiOS_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSMTPiOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSMTPiOS_Tests/Pods-SwiftSMTPiOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftSMTPiOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150B02BABE31E73E609AB95691905758 /* Build configuration list for PBXNativeTarget "SwiftSMTPiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A7A2294A5289ACA4B27A70256C0D4 /* Debug */,
+				621792EBAFDB79AD89A67E39DF14FCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CE415440FE5916081A1BE5BC0AE160 /* Build configuration list for PBXNativeTarget "Pods-SwiftSMTPiOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEB70E334511C0A350ECCADD52FEC1D /* Debug */,
+				A9770BD1CC3CB8C4498B8924B104B851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
