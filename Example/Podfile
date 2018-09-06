@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftSMTPiOS_Tests' do
+  pod 'SwiftSMTPiOS', :path => '../'
+  
+  
+end
